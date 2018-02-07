@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "550550700939",
+    "firebase_url": "https://examplepresentation-ffb07.firebaseio.com",
+    "project_id": "examplepresentation-ffb07",
+    "storage_bucket": "examplepresentation-ffb07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550550700939:android:f4efb10fc81dfdfc",
+        "android_client_info": {
+          "package_name": "com.example.gptv.examplepresentation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550550700939-pdtrruitborr8kbfmep52738u235jb12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gptv.examplepresentation",
+            "certificate_hash": "5ef898d7831803b5cee4314834436103552ff536"
+          }
+        },
+        {
+          "client_id": "550550700939-phkp142ok3l9qt6c6j8el9e0happku9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoX2bWtlxLQCF9H0YAL60Eq6xR3EVOL8s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550550700939-phkp142ok3l9qt6c6j8el9e0happku9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
