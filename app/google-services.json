@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "550550700939-o75s3mgibi458hkrm6mvfbgs7r23p98i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gptv.examplepresentation",
+            "certificate_hash": "7151d2bf6d9354d6423eb0260edda19d6442b5e3"
+          }
+        },
+        {
           "client_id": "550550700939-pdtrruitborr8kbfmep52738u235jb12.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

@@ -18,17 +18,28 @@
         />
 
     <EditText
-        android:id="@+id/activity_register_txtEmail"
+        android:id="@+id/activity_register_txtDisplayName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/activity_register_lblRegister"
+        android:hint="Enter Display name..."
+        android:inputType="text"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/activity_register_txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_register_txtDisplayName"
         android:hint="Enter Email..."
         android:inputType="textEmailAddress"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="30dp"
         />
-
 
 
     <EditText
