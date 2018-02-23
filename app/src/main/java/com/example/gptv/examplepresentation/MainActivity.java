@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         //FirebaseUser holds all of the information of current user such as user id, email, etc.
-        FirebaseUser loggedInUser = mAuth.getCurrentUser();
+        FirebaseUser loggedInUser = mAuth.getCurrentUser(); //mAuth.getCurrentUser() retrieves information about current user
 
-        //This check prevents from a null object reference error
+        //This check prevents a null object reference error
         if(loggedInUser != null) {
             //mReference holds the reference to the 'Users' table in the database
             //If there is no table it returns null value
@@ -86,15 +86,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //Runs before onCreate() to check if a user is already logged in
+    //Runs before onCreate()
     @Override
     protected void onStart() {
         super.onStart();
 
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
 
+        //Checking to see if there is a user logged in, if not the currentUser will return null
         if(currentUser == null)
         {
+            //If null then the user is taken to the LoginActivity
             Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(loginIntent);
             finish();

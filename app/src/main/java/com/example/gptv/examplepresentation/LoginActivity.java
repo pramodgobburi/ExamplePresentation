@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        //This method is run when the register TextView is clicked
+        //This method runs when the register TextView is clicked
         lblRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void loginUser (String email, String password)
     {
-        //Login method to login a user in Firebase
+        //Sign in method to login a user in Firebase
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
